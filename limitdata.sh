@@ -31,6 +31,7 @@ cat << EOF | sudo tee /root/check.sh > /dev/null
 
 # Network interface name
 interface_name="$interface_name"
+
 # Traffic threshold limit (in GB)
 traffic_limit=$traffic_limit
 
